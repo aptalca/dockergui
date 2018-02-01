@@ -29,7 +29,8 @@ apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EEA14886
 # Install Dependencies
 apt-get update -qq
 # Install general
-apt-get install -qy --force-yes --no-install-recommends wget \
+apt-get install -qy --force-yes --no-install-recommends tzdata \
+							wget \
                             				unzip
 
 # Install window manager and x-server
